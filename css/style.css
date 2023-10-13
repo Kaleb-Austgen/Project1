@@ -7,7 +7,7 @@ html {
 
 body {
     background-color: cornflowerblue;
-    width: 1200px;
+    width: 60em;
     margin: auto;
     font-family:'Times New Roman', Times, serif;
     text-align: center;
@@ -60,3 +60,43 @@ input[type="text"], input[type="email"], input[type="tel"] {
     font-size: 1em;
     line-height: 1em;
 }
+
+input[type="submit"] {
+    background-color: cornflowerblue;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1% 2%;
+    cursor:grab;
+}
+
+/* Media queries */
+/*1280 Screens and 1080 Screens*/
+@media(min-width:1024px){
+    #content{
+      margin:50px auto;
+      padding: 20px;
+      width: 80%;
+      max-width: 800px;
+    }
+    input[type="text"], input[type="email"], input[type="tel"]{
+      width: 400px;
+      font-size: 20px;
+   }
+    input[type="submit"]{
+      font-size: 22px;
+    }
+  }
+  @media(min-width:1280px){
+    #content{
+      margin:50px auto;
+      padding: 20px;
+      width: 80%;
+      max-width: 1000px;
+   }
+   input[type="text"], input[type="email"], input[type="tel"]{
+      width: 500px; 
+      font-size: 22px;
+   }
+   input[type="submit"]{
+      font-size: 24px;
+   }
+  }

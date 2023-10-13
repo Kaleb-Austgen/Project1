@@ -1,13 +1,13 @@
 /* For Desktops/Large screens */
+#content,
 
 html {
     line-height: 4em;
 }
 
 body {
-    background-color: #FF0000;
+    background-color: cornflowerblue;
     width: 1200px;
-    color: black;
     margin: auto;
     font-family:'Times New Roman', Times, serif;
     text-align: center;
@@ -15,7 +15,48 @@ body {
 }
 
 h1 {
+    background-color:cornflowerblue;
     font-size: 4em;
-    padding-top: 1em;
-    display: block;
+    padding: 0.5em;
+    
+}
+
+h2 {
+    background-color: cornflowerblue;
+    font-size: 2em;
+    border-bottom: 2px solid;
+}
+
+p {
+    font-size: 1.25em;
+    
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 25%;
+    background-color: grey;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    border-right: 2px solid;
+}
+
+label {
+    display: inline-flex;
+    box-sizing: border-box;
+    width: 100%;
+    align-items: flex-start;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    border: 1px solid;
+    border-radius: 2px;
+    font-size: 1em;
+    line-height: 1em;
 }

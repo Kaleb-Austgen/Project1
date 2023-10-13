@@ -9,23 +9,39 @@
   </head>
   <body>
     <main id="content">
-      <h1>We Need YOU for the Roman Empire</h1>
+      <h1>We Need YOU </h1>
       <h2>Service Guarantees Citizenship!</h2>
       <form method="get" autocomplete="on" action="#null" onsubmit="submitForm()">
-          <div id="Email">
+        <p>Sign up today!</p>
+        <img src="images/starshiptroopers.png" alt="Starship troopers photo">
+        <p>Fight evil bugs!</p>
+        <div id="FirstName">
+            <label for="firstname">First Name: </label>
+            <input type="text" id="firstname" name="firstname" required>
+          </div>
+          <div id="LastName">
+            <label for="lastname">Last Name: </label>
+            <input type="text" id="lastname" name="lastname" required>
+          </div>
+        <div id="Email">
           <label for="email">Email: </label>
           <input type="text" id="email" name="email" required>
-          </div>
-          <div id="PhoneNumber">
+        </div>
+        <div id="PhoneNumber">
           <label for="phonenumber">Phone Number: </label>
-          <input type="text" id="number" name="number" required>
-          </div>
-          <div id="Knowledge">
-          <label for="knowledge">Describe your knowledge of Rome: </label>
-          </div>
-          <div id="submit">
-          <input type="submit" name="submit" value="Done">
-          </div>
+          <input type="text" id="phonenumber" name="phonenumber" placeholder="(XXX)-XXX-XXX">
+        </div>
+        <div id="Experience">
+          <label for="experience">Combat Experience: </label>
+          <select id="experience" name="experience">
+            <option value="lots">Lots</option>
+            <option value="some">Some</option>
+            <option value="none">None</option>
+          </select>
+        </div>
+        <div id="submit">
+          <input type="submit" name="submit" value="Submit">
+        </div>
       </form>
     </main>
   </body>

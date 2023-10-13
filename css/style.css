@@ -80,14 +80,14 @@ input[type="submit"] {
       font-size: 20px;
    }
     input[type="submit"]{
-      font-size: 22px;
+      font-size: 30px;
     }
   }
 @media(min-width:1280px){
     #content{
         margin:50px auto;
         padding: 20px;
-        width: 60%%;
+        width: 60%;
         max-width: 1000px;
     }
     input[type="text"], input[type="email"], input[type="tel"]{
@@ -95,7 +95,7 @@ input[type="submit"] {
         font-size: 22px;
     }
     input[type="submit"]{
-        font-size: 24px;
+        font-size: 30px;
     }
 }
 

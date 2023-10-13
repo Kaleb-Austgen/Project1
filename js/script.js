@@ -4,5 +4,5 @@ jQuery(function($) {
 });
 
 function submitForm() {
-    alert("Glory to the Emperor!")
+    alert("Glory to the Federation!")
 }

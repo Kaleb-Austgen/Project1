@@ -1,0 +1,21 @@
+/* For Desktops/Large screens */
+
+html {
+    line-height: 4em;
+}
+
+body {
+    background-color: #FF0000;
+    width: 1200px;
+    color: black;
+    margin: auto;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+    font-size: 4em;
+    padding-top: 1em;
+    display: block;
+}

@@ -1,4 +1,4 @@
-/* For Desktops/Large screens */
+/* Small screens */
 #content,
 
 html {
@@ -67,7 +67,7 @@ input[type="submit"] {
 }
 
 /* Media queries */
-/*1280 Screens and 1080 Screens*/
+/*1280 Screens, 1080 Screens*/
 @media(min-width:1024px){
     #content{
       margin:50px auto;
@@ -83,18 +83,19 @@ input[type="submit"] {
       font-size: 22px;
     }
   }
-  @media(min-width:1280px){
+@media(min-width:1280px){
     #content{
-      margin:50px auto;
-      padding: 20px;
-      width: 80%;
-      max-width: 1000px;
-   }
-   input[type="text"], input[type="email"], input[type="tel"]{
-      width: 500px; 
-      font-size: 22px;
-   }
-   input[type="submit"]{
-      font-size: 24px;
-   }
-  }
+        margin:50px auto;
+        padding: 20px;
+        width: 80%;
+        max-width: 1000px;
+    }
+    input[type="text"], input[type="email"], input[type="tel"]{
+        width: 500px; 
+        font-size: 22px;
+    }
+    input[type="submit"]{
+        font-size: 24px;
+    }
+}
+

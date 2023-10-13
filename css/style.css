@@ -47,14 +47,12 @@ form{
 }
 
 label {
-    display: inline-flex;
-    box-sizing: border-box;
-    width: 100%;
-    align-items: flex-start;
+    width: 10%;
 }
 
 input[type="text"], input[type="email"], input[type="tel"] {
-    width: 100%;
+    width: 30%;
+    position: relative;
     border: 1px solid;
     border-radius: 2px;
     font-size: 1em;

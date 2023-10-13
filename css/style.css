@@ -72,11 +72,11 @@ input[type="submit"] {
     #content{
       margin:50px auto;
       padding: 20px;
-      width: 80%;
+      width: 100%;
       max-width: 800px;
     }
     input[type="text"], input[type="email"], input[type="tel"]{
-      width: 400px;
+      width: 40%;
       font-size: 20px;
    }
     input[type="submit"]{
@@ -87,7 +87,7 @@ input[type="submit"] {
     #content{
         margin:50px auto;
         padding: 20px;
-        width: 80%;
+        width: 60%%;
         max-width: 1000px;
     }
     input[type="text"], input[type="email"], input[type="tel"]{
